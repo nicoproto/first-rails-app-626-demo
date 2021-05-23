@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <div style="background: lightgray; padding: 16px">
+      <%= link_to "Know more about us", about_path %>
+      <%= link_to "Meet our team", contact_path %>
+    </div>
+
     <%= yield %>
+    <p>A very simple footer</p>
   </body>
 </html>

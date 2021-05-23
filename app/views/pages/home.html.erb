@@ -1,0 +1,10 @@
+<p>Today's date is: <strong><%= Time.now %> </strong></p>
+
+<% members = ['leonardo', 'michelangelo', 'raphael', 'donatello'] %>
+
+<h2>Meet our team</h2>
+<ul>
+  <% members.each do |member| %>
+    <li><%= member.capitalize %></li>
+  <% end %>
+</ul>
